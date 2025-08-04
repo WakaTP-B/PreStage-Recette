@@ -1,11 +1,7 @@
 <?php
-
-
-
-
-
-
-
+session_start();
+require_once "crud-user.php";
+if(isset)
 ?>
 
 
