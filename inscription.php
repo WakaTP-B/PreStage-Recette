@@ -1,7 +1,9 @@
 <?php
 session_start();
 require_once "crud-user.php";
-if(isset)
+if(isset($_POST["username"]) && isset($_POST["password"]) ){
+    var_dump($_POST);
+}
 ?>
 
 
