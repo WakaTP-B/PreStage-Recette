@@ -1,6 +1,8 @@
 <?Php
 require_once "crud-recettess.php";
 session_start();
+$recetteID = $_GET['recetteID'];
+$recettes=get_recette($recetteID);
 ?>
 
 <!DOCTYPE html>

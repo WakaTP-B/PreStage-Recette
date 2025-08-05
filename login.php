@@ -2,7 +2,9 @@
 session_start();
 require_once "crud-user.php";
 if(isset($_POST["username"]) && isset($_POST["password"]) ){
-    var_dump($_POST);
+    $username = $_POST["username"];
+    $password = $_POST["password"];
+    authenticate_user($username,$password);
 }
 ?>
 <html lang="en">
